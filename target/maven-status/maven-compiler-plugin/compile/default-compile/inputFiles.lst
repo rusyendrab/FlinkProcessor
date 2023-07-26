@@ -1,0 +1,8 @@
+C:\demo\FlinkProcessor\src\main\java\com\flink\domain\LineItem.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\domain\PosInvoice.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\mapper\PosMapper.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\domain\PosInvoiceFlat.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\common\Constants.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\serd\PosDeserializationSchema.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\domain\DeliveryAddress.java
+C:\demo\FlinkProcessor\src\main\java\com\flink\Main.java

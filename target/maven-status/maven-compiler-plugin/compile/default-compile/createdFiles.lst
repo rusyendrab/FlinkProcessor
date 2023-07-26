@@ -1,0 +1,9 @@
+com\flink\domain\DeliveryAddress.class
+com\flink\mapper\PosMapper.class
+com\flink\common\Constants.class
+com\flink\domain\LineItem.class
+com\flink\domain\PosInvoice.class
+com\flink\domain\PosInvoiceFlat.class
+com\flink\serd\PosDeserializationSchema.class
+com\flink\Main$1.class
+com\flink\Main.class

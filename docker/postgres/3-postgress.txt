@@ -1,0 +1,39 @@
+psql -U docker;
+create database pos;
+\c pos;
+create table poslineitem(
+    InvoiceNumber varchar(50) not null,
+    CreatedTime bigint,
+    StoreID varchar(50),
+    PosID varchar(50),
+    CashierID varchar(50),
+    CustomerType varchar(50),
+    CustomerCardNo varchar(50),
+    TotalAmount decimal,
+    NumberOfItems int,
+    PaymentMethod varchar(50),
+    TaxableAmount decimal,
+    CGST decimal,
+    SGST decimal,
+    CESS decimal,
+    DeliveryType varchar(50),
+
+    AddressLine varchar(50),
+    City varchar(50),
+    State varchar(50),
+    PinCode varchar(50),
+    ContactNumber varchar(50),
+
+    ItemCode varchar(50),
+    ItemDescription varchar(50),
+    ItemPrice decimal,
+    ItemQty int,
+    TotalValue  decimal
+	);
+
+drop table poslineitem;
+
+\dt
+
+select * from public.poslineitem;
+select count(*) from public.poslineitem;

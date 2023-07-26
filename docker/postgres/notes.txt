@@ -1,0 +1,29 @@
+select
+    InvoiceNumber,
+    CreatedTime,
+    StoreID,
+    PosID,
+    CashierID,
+    CustomerType,
+    CustomerCardNo,
+    TotalAmount,
+    NumberOfItems,
+    PaymentMethod,
+    TaxableAmount,
+    CGST,
+    SGST,
+    CESS,
+    DeliveryType,
+
+    AddressLine,
+    City,
+    State,
+    PinCode,
+    ContactNumber,
+
+    ItemCode,
+    ItemDescription,
+    ItemPrice,
+    ItemQty,
+    TotalValue
+from poslineitem;	
